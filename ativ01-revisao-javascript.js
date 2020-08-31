@@ -26,6 +26,79 @@ let estado1 = {
 
 estadosNe.push(estado1)
 
+<<<<<<< HEAD
+=======
+let estado2 = {
+   nome:'Alagoas',
+   sigla: 'AL',
+   area: 27848.14,
+   populacao: 3322820
+}
+
+estadosNe.push(estado2)
+
+let estado3 = {
+   nome: 'Rio Grande do Norte',
+   sigla: 'RN',
+   area: 52811.05,
+   populacao: 3479010
+}
+
+estadosNe.push(estado3)
+
+let estado4 = {
+   nome: 'Paraíba',
+   sigla: 'PB',
+   area: 56469.78,
+   populacao: 3996496
+}
+
+estadosNe.push(estado4)
+
+let estado5 = {
+   nome:'Pernambuco',
+   sigla: 'PE',
+   area: 98148.32,
+   populacao: 9496294
+
+}
+
+estadosNe.push(estado5)
+
+let estado6 = {
+   nome: 'Ceará',
+   sigla: 'CE',
+   area: 148920.47,
+   populacao: 9075649 
+}
+
+estadosNe.push(estado6)
+
+let estado7 = {
+   nome: 'Piauí',
+   sigla: 'PI',
+   area: 251577.74,
+   populacao: 3264531
+}
+
+estadosNe.push(estado7)
+
+let estado8 = {
+   nome: 'Maranhão',
+   sigla: 'MA',
+   area: 331937.45,
+   populacao: 7035055
+}
+
+estadosNe.push(estado8)
+
+let estado9 = {
+   nome: 'Bahia',
+   sigla: 'BA',
+   area: 564733.18,
+   populacao: 14812617
+}
+>>>>>>> a8160f4d8695e88aca9c6ea57336d8c5e6d600e0
 /*
    1) Crie objetos para os demais Estados, segundo o modelo acima, e acrescente-os
       ao vetor estadosNe usando push().
@@ -37,6 +110,13 @@ estadosNe.push(estado1)
       segunda pela primeira. 
 */
 
+<<<<<<< HEAD
+=======
+let densidade = function(area,populacao){
+   return(area/populacao)
+}
+
+>>>>>>> a8160f4d8695e88aca9c6ea57336d8c5e6d600e0
 /*
    3) Percorra o vetor estadosNe usando um for tradicional. Para cada estado,
       chame a arrow function criada em 2) e efetue o cálculo correspondente.
@@ -47,10 +127,31 @@ estadosNe.push(estado1)
 
 */
 
+<<<<<<< HEAD
+=======
+for(var i=0; i<9; i++){
+   estadosNe[i]['Densidade demográfica'] = estadosNe[i].populacao / estadosNe[i].area
+   delete estadosNe[i].sigla
+}
+
+console.log(estado1['Densidade demográfica'])
+console.log('---------------------------------------')
+
+
+>>>>>>> a8160f4d8695e88aca9c6ea57336d8c5e6d600e0
 /* 4) Escreva uma arrow function que receba um objeto. Na função, use for..in
       para extrair as propriedades e seus valores e exibi-los com console.log().
 
 */
+<<<<<<< HEAD
+=======
+const propriedades = estado1 => {
+   for(propriedade in estado1){
+      console.log(`${propriedades}: ${estado1[propriedades]} `)
+   }
+}
+console.log(propriedades(estadosNe[0])
+>>>>>>> a8160f4d8695e88aca9c6ea57336d8c5e6d600e0
 
 /* 5) Percorra o vetor estadosNe usando for..of. Para cada objeto no vetor,
       invoque a função escrita em 4) para exibi-lo.
