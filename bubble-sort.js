@@ -10,7 +10,7 @@ function bubbleSort(vetor){
                 trocas++
             }
         }
-
+           
     }while (trocas > 0)
 
 }
